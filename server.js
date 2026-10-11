@@ -4,7 +4,6 @@ var bodyParser = require('body-parser');
 var edge = require('edge');
 var edgesql = require('edge-sql');
 var ping = require('ping');
-var request = require('request');
 var parseString = require('xml2js').parseString;
 var env = require('node-env-file');
 var fs = require('fs');
